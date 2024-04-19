@@ -1,5 +1,7 @@
 import React from 'react'
 import './portfolio.css'
+import IMG from '../../assets/portfolio.jpg';
+import IMG1 from '../../assets/portfolio1.jpg';
 
 const Portfolio = () => {
   return (
@@ -10,9 +12,17 @@ const Portfolio = () => {
       <div className="container portfolio__container">
           <article className='portfolio__item'>
             <div className="portfolio__item-image">
-              <img src="" alt="" />
+              <img src={IMG} alt="" />
             </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>Car Rental Services</h3>
+                <a href="https://github.com" className='btn' target='_blank'>Github</a>
+                <a href="https://dribbble.com/designers?search[category]=Web%20design&search[workType]=freelance" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </article>
+          <article className='portfolio__item'>
+            <div className="portfolio__item-image">
+              <img src={IMG1} alt="" />
+            </div>
+            <h3>Hospital Management System</h3>
                 <a href="https://github.com" className='btn' target='_blank'>Github</a>
                 <a href="https://dribbble.com/designers?search[category]=Web%20design&search[workType]=freelance" className='btn btn-primary' target='_blank'>Live Demo</a>
           </article>
@@ -20,7 +30,7 @@ const Portfolio = () => {
             <div className="portfolio__item-image">
               <img src="" alt="" />
             </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>Hotel Management System</h3>
                 <a href="https://github.com" className='btn' target='_blank'>Github</a>
                 <a href="https://dribbble.com/designers?search[category]=Web%20design&search[workType]=freelance" className='btn btn-primary' target='_blank'>Live Demo</a>
           </article>
@@ -28,7 +38,7 @@ const Portfolio = () => {
             <div className="portfolio__item-image">
               <img src="" alt="" />
             </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>Financial Dashbord </h3>
                 <a href="https://github.com" className='btn' target='_blank'>Github</a>
                 <a href="https://dribbble.com/designers?search[category]=Web%20design&search[workType]=freelance" className='btn btn-primary' target='_blank'>Live Demo</a>
           </article>
@@ -36,7 +46,7 @@ const Portfolio = () => {
             <div className="portfolio__item-image">
               <img src="" alt="" />
             </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>Real Estate Management</h3>
                 <a href="https://github.com" className='btn' target='_blank'>Github</a>
                 <a href="https://dribbble.com/designers?search[category]=Web%20design&search[workType]=freelance" className='btn btn-primary' target='_blank'>Live Demo</a>
           </article>
@@ -44,15 +54,7 @@ const Portfolio = () => {
             <div className="portfolio__item-image">
               <img src="" alt="" />
             </div>
-            <h3>This is a portfolio item title</h3>
-                <a href="https://github.com" className='btn' target='_blank'>Github</a>
-                <a href="https://dribbble.com/designers?search[category]=Web%20design&search[workType]=freelance" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </article>
-          <article className='portfolio__item'>
-            <div className="portfolio__item-image">
-              <img src="" alt="" />
-            </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>School Management System</h3>
                 <a href="https://github.com" className='btn' target='_blank'>Github</a>
                 <a href="https://dribbble.com/designers?search[category]=Web%20design&search[workType]=freelance" className='btn btn-primary' target='_blank'>Live Demo</a>
           </article>

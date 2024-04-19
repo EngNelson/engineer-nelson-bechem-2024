@@ -4,11 +4,11 @@ import { RiCheckLine } from "react-icons/ri";
 
 const Services = () => {
   return (
-    <section>
+    <section id='services'>
       <h5>What I Offer</h5>
       <h2>Services</h2>
 
-      <div className="container services__contact">
+      <div className="container services__container">
          <article className='service'>
                   <div className="service__head">
                      <h3>DevOps</h3>
@@ -40,6 +40,8 @@ const Services = () => {
                           <p>Lorem, ispod dolor sit amet consecteture alit.</p>
                         </li>
                   </ul>
+
+     
          </article>
          {/* END OF DEVOPS */}
          <article className='service'>
@@ -108,9 +110,6 @@ const Services = () => {
                   </ul>
          </article>
          </div>
-    
-      
-
     </section>
   )
 }
