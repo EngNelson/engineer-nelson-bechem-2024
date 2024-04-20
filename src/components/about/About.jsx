@@ -41,10 +41,10 @@ const About = () => {
          </div>
            
            <p>
-           “Sure, so, my name is Nelson and 
-           I am a full stack developer(MERN Stack). 
-           I have a background in Computer Engineering, 
-           with a degree from the University of Buea
+           Experienced Software Engineer with a proven track record of designing, 
+           developing, and implementing complex software solutions. 
+           Skilled in multiple programming languages and technologies, 
+           with a strong focus on problem-solving and innovation.
            </p>
          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
        </div>
